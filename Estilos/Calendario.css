@@ -1,0 +1,23 @@
+#calendario h2,h3, h4{
+  text-align: center;
+
+}
+#calendario  .mapa iframe{
+  border: 7px solid #2649a3;
+  }
+
+#calendario .contenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+
+#calendario article{
+  margin: 15px;
+
+}
+
+#calendario img{
+  width: 100%;
+  max-width: 280;
+}

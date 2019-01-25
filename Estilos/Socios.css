@@ -1,0 +1,64 @@
+#calendario p{
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+#calendario h2,h3,h4{
+  text-align: center;
+}
+#calendario .contenedor input{
+  margin:10px;
+  position: auto;
+}
+.formulario{
+  background-image : url(../Imagenes/Fondo-formulario-O-Con-Cuernos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 400px;
+  max-width: 1000px;
+  margin: auto;
+  border: 5px solid ;
+  border-radius: 12px;
+
+}
+
+.formulario input[type="button"]{
+  background-color: #2649a3;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.formulario .radio label{
+  padding: 5px 15px;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+  color: #000;
+
+  border-radius: 5px;
+}
+.formulario input[type="radio"]{
+  cursor:pointer;
+  display: none;
+}
+.formulario input[type="radio"]:checked + label{
+  margin: 10px;
+  padding:5px 15px;
+  background: #2649a3;
+  border-radius: 40px;
+  color: #fff;
+  transition: all 0.5s;
+}
+.formulario .radio label:hover {
+  background: rgba(38,73,163,0.3);
+  margin: 10px;
+  padding: 5px 15px;
+  border-radius: 40px;
+  color: #000;
+  transition: all 0.4s;
+}
